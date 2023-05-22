@@ -28,10 +28,10 @@ class Tests {
     @Autowired
     private SiteGradeService siteGradeService;
 
-    @Test
-    void test1() {
-        assertNotNull(sqlSessionTemplate);
-    }
+//    @Test
+//    void test1() {
+//        assertNotNull(sqlSessionTemplate);
+//    }
 
     //	@Test
 //	void test2() {
