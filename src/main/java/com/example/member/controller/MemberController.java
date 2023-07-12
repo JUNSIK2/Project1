@@ -129,7 +129,7 @@ public class MemberController {
         return map;
     }
 
-    // 인증메일 발송
+    // 인증메일 발송 ㅇㅇ
     @GetMapping("/sendMail")
     @ResponseBody
     public Map memberMailSender(@Valid MemberIdVo member, HttpServletRequest req)
